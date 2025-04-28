@@ -42,9 +42,6 @@ if __name__ == '__main__':
     print(lst)
     end = time.time()
     print(end-start)
-
-
-
 import MarksFetcherReq
 f = MarksFetcherReq.Fetcher()
 f.fetch("21029-CM-090", "4")
